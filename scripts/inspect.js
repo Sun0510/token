@@ -1,7 +1,7 @@
 const { ethers } = require("hardhat");
 
 async function main() {
-  const contractAddress = "0xFe7F0F9aFB7A9673a2C444D81Bb06837c66E8797";
+  const contractAddress = "0x8D930388bDd25047E70C5B874009D6CC6a54EB04";
   const shinu = await ethers.getContractAt("SHINU", contractAddress);
 
   const totalSupply = await shinu.totalSupply();
