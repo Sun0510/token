@@ -11,12 +11,24 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@nomiclabs/hardhat-etherscan": "^2.1.5",
+    "@types/node": "^24.10.1",
     "dotenv": "^17.2.3",
-    "hardhat": "^2.27.1"
+    "ethers": "^6.15.0",
+    "hardhat": "^2.27.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^5.4.0",
-    "ethers": "^5.8.0"
-  }
+    "@openzeppelin/contracts": "^5.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sun0510/token.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sun0510/token/issues"
+  },
+  "homepage": "https://github.com/Sun0510/token#readme"
 }
